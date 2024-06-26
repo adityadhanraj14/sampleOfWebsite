@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE Organization</title>
+    <link rel="stylesheet" href="ieee.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">IEEE Organization</h1>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <section id="team" class="section team-section">
+            <div class="container">
+                <h2>Student's Profile</h2>
+                <div class="card-container">
+                    <!-- Card that triggers the modal -->
+                    <div class="card" id="card1">
+                        <img src="person1.jpg" alt="Person 1">
+                        <h3>BILL GATES</h3>
+                        <p>USN: 1BY22CS114</p>
+                        <p>TOP SKILLS: Visionary tech entrepreneur, philanthropic leader, co-founder of Microsoft.</p>
+                    </div>
+                    <div class="card" id="card2">
+                        <img src="person2.jpg" alt="Person 2">
+                        <h3>ELON MUSK</h3>
+                        <p>USN: 1BY22CS010</p>
+                        <p>TOP SKILLS: Innovative entrepreneur, visionary thinker, founder of Tesla and SpaceX.</p>
+                    </div>
+                    <div class="card" id="card3">
+                        <img src="person3.jpg" alt="Person 3">
+                        <h3>RATAN TATA</h3>
+                        <p>USN: 1BY22CS999</p>
+                        <p>TOP SKILLS: Respected industrialist, philanthropist, former chairman of Tata Group.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget leo nisi. Fusce varius ex eget felis iaculis, ac elementum magna aliquam.</p>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 IEEE Organization. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Bill Gates -->
+<div id="modal1" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" id="close1">&times;</span>
+        <img src="person1.jpg" alt="Person 1">
+        <h2>Bill Gates</h2>
+        <p>About Me: Co-founder of Microsoft, visionary tech entrepreneur, and philanthropic leader.</p>
+        <p>Projects: Microsoft, Bill & Melinda Gates Foundation</p>
+        <p>Endorsements: Warren Buffett, Melinda French Gates</p>
+    </div>
+</div>
+
+<!-- Modal for Elon Musk -->
+<div id="modal2" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" id="close2">&times;</span>
+        <img src="person2.jpg" alt="Person 2">
+        <h2>Elon Musk</h2>
+        <p>About Me: Founder of Tesla and SpaceX, innovative entrepreneur, and visionary thinker.</p>
+        <p>Projects: Tesla, SpaceX, Neuralink, The Boring Company</p>
+        <p>Endorsements: Larry Page, Richard Branson</p>
+    </div>
+</div>
+
+<!-- Modal for Ratan Tata -->
+<div id="modal3" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" id="close3">&times;</span>
+        <img src="person3.jpg" alt="Person 3">
+        <h2>Ratan Tata</h2>
+        <p>About Me: Respected industrialist, philanthropist, and former chairman of Tata Group.</p>
+        <p>Projects: Tata Group, Tata Trusts</p>
+        <p>Endorsements: N. R. Narayana Murthy, Mukesh Ambani</p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
